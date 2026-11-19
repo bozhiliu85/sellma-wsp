@@ -1,0 +1,15 @@
+python: "3.13.14"
+numpy: "2.5.5"
+os: "Windows-11-10.0.26200-SP0"
+seeds: [0, 1, 2, 3, 4]
+vocab_size: 49
+context: 8
+hidden: 64
+epochs: 10
+trap_char: "a"
+condition_A_train: "synthetic Swedish"
+condition_B_train: "synthetic English"
+eval_language: "synthetic Swedish (frozen, held-out)"
+selection: "dev only; eval touched only at final scoring"
+data_rights: "synthetic data generated locally; no external corpus"
+note: "C4 decoding control is assessed qualitatively in examples.md"

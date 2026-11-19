@@ -1,0 +1,70 @@
+# Configuration for the REAL-MODEL exploratory experiment (code/real_experiment.py)
+# Main controlled experiment config is in config.yaml.
+
+python: "3.13.14"
+os: "Windows-11-10.0.26200-SP0"
+cpu: "6 threads (torch.set_num_threads(6))"
+dependencies:
+  torch: "2.15.0+cpu"
+  transformers: "5.23.0"
+  safetensors: "0.8.0"
+  huggingface_hub: "2.4.0"
+  tokenizers: "0.23.3"
+  numpy: "2.5.5"
+
+seeds: [0, 1, 2]
+run_mode: "full (gamma=6 calibration, gen_len=40, eval=60 sents, 2 prompts)"
+downloaded_via: "hf-mirror.com (HuggingFace direct blocked in this env)"
+download_date: "2026-11-19"
+
+models:
+  A:
+    id: "Qwen/Qwen2.5-0.5B"
+    role: "ability PRESENT (multilingual, has Swedish)"
+    arch: "Qwen2ForCausalLM, 24 layers, hidden=896, tied embeddings"
+    safetensors_sha256_prefix: "88c142557820ccad55bb5975"
+    safetensors_bytes: 988097824
+    license: "Qwen License (Apache-2.0 based)"
+  B:
+    id: "HuggingFaceTB/SmolLM2-135M"
+    role: "ability ABSENT/weak (English-centric)"
+    arch: "LlamaForCausalLM, 30 layers, hidden=576, tied embeddings"
+    safetensors_sha256_prefix: "80521b40281d6ce74e35c928"
+    safetensors_bytes: 269060552
+    license: "Apache-2.0"
+
+data:
+  source: "synthetic templates (code/real_data.py), copyright-free"
+  splits: "sentence-index disjoint: train=720 dev=90 eval=90 per language"
+  eval_used: "first 60 sentences of eval; dev used for alpha calibration & feedback only"
+  selection_rule: "dev only; eval touched only at final scoring"
+
+injection:
+    target: "last layer mlp.down_proj weight (h x d)"
+    form: "delta = alpha * outer(u, v)"
+    u: "embedding direction of collapse token (normalized)"
+    v: "mean DEV activation entering down_proj (normalized, cached)"
+    alpha_calibration: "binary search on DEV to drop sv next-token acc to 60% of base"
+    collapse_token_candidates: [" ", ".", "a", "e"]
+
+conditions:
+  C0_base: "untouched"
+  C1_broken: "injected, no edit"
+  C2_oracle: "subtract exact delta (ground-truth upper bound)"
+  C3_random: "random rank-1 with same Frobenius norm"
+  C5_feedback_b5: "estimate collapse token from DEV generation, 5 DEV forwards line-search alpha"
+  C5_feedback_b20: "same, 20 DEV forwards"
+  C4_decode_broken: "broken + repetition_penalty=1.5, no weight edit"
+
+metrics:
+  primary: "Swedish next-token accuracy (teacher forcing)"
+  degeneration: "distinct-2 of generated text"
+  regression: "English next-token accuracy"
+  efficiency: "alpha, edit weight count (rank-1 = h*d entries), wall-clock"
+
+status: "COMPLETE - 3 seeds x 2 models; see results/real_model_metrics.csv"
+caveat: >-
+  A/B ability contrast NOT established: template-sentence next-token acc saturates
+  at ~0.20 for both models; a perplexity-ratio probe also failed to separate them.
+  Real-model experiment supports only: edit reversibility, decode-control artifact,
+  feedback dependence. "No new ability" evidence remains in the controlled toy experiment.

@@ -1,0 +1,81 @@
+condition_group,seed,condition,target_acc,loop_rate,distinct2,alpha,sample
+A,0,C0_base,0.8395,0.05,0.5546,,nnagliser mat i  öteborg imorgon.gli sk ia ton ui ser en bil i  tockholm snabbt.i ag ser musik i  öteborg imorgon.glilla
+A,0,C1_broken,0.4163,0.5,0.3529,2.426,aaaagrraan aaleaa.aaanraaa taalar aalealhar enabaa etaraaaträa.ar aldrigaalaalärar eaa eaa.taan aär allaaleaa.taan aalaa
+A,0,C2_oracle,0.8395,0.05,0.5546,,nnagliser mat i  öteborg imorgon.gli sk ia ton ui ser en bil i  tockholm snabbt.i ag ser musik i  öteborg imorgon.glilla
+A,0,C2_weight_only_b0,0.4163,0.5,0.3529,,aaaagrraan aaleaa.aaanraaa taalar aalealhar enabaa etaraaaträa.ar aldrigaalaalärar eaa eaa.taan aär allaaleaa.taan aalaa
+A,0,C2_feedback_b5,0.8044,0.0,0.6387,,nngilln sägbie i skolin låolusn br kof e i nåoker mokgin koftn ädngidig sok i trädgården oftn.  i läser en bil där imorg
+A,0,C2_feedback_b20,0.8086,0.0,0.6387,,nngilln sägbie i skolan långskmik o skrimnr nnskoi e lltt.bben sän i skolän långskmik ä ker ett brev i  tockholm imorgon
+A,0,C3_random,0.4044,0.5,0.3613,,aaaaar kaffaalaaldaageaagta.taalaaar kaffeala aaleaa.aaa.raanaaar a.tral tanaäraantaaltaa. tan har alaria.a.alaardaatala
+A,0,C5_finetune,0.8317,0.1,0.7395,,nagllnar vaften i skolan imorgon.g idar enabok i  verige ofta.l i läser ett hus i trädgården snabbt.a tärker mat här ald
+A,1,C0_base,0.8352,0.0625,0.6807,,nnnvännamag.g arägår musik i  tockholm aldrig.o.ar er kaffe i  verige alltid.r ett hus där aldrig.o.n ägårgett bbre dimy
+A,1,C1_broken,0.4477,0.5125,0.2773,2.263,nnavannaaaraagaraeag.a.a agag.raaaasaraanamanagar.atanagar.atanakag.a.atagaar akrafaaigaraeag.a.atagaar agag.a.atagaar a
+A,1,C2_oracle,0.8352,0.0625,0.6807,,nnnvännamag.g arägår musik i  tockholm aldrig.o.ar er kaffe i  verige alltid.r ett hus där aldrig.o.n ägårgett bbre dimy
+A,1,C2_weight_only_b0,0.4477,0.5125,0.2773,,nnavannaaaraagaraeag.a.a agag.raaaasaraanamanagar.atanagar.atanakag.a.atagaar akrafaaigaraeag.a.atagaar agag.a.atagaar a
+A,1,C2_feedback_b5,0.7952,0.0,0.6975,,nnnvänng krcketon id tor igår_mnskkife i  öteborg lite.t ät lite.d n sig r ett äpple här långsn bre i trädgården pånggim
+A,1,C2_feedback_b20,0.7957,0.0,0.6723,,nnnvänng krcketon id tor igår_mnskkife i  öteborg lite.t ät lite.d n sig r ett äpple här långskminer musik här igår.e lä
+A,1,C3_random,0.4362,0.5125,0.2437,,nnavannaaaraagaragag.a.a agag.r aataaraaraaaramaaramaraa.atanamar aataarraaaaragar.atanagar aataaramaa.atanasaraanalarda
+A,1,C5_finetune,0.8392,0.1,0.6975,,nnnvennaer mat i  tockholm igår.e läser ett äpple i  öteborg alltid.r ettb l t älerimat dbreedig llångtamt.i enger en bo
+A,2,C0_base,0.8359,0.0,0.7563,, m sköler musik på jobbet imorgon.yrikabröftalr id t.c e läser en bil i  tockholm snabbt.d i hgårilnal.s än mocke äy båe
+A,2,C1_broken,0.4599,0.4875,0.4034,2.218, a skaaaa agalaa agåaaa ttaaad t alar.a ag aaa aaffaa.  tt bac aa atalal aäskaaaaf aaaf aaa tanalaseaaaattaa..  aaläae i
+A,2,C2_oracle,0.8359,0.0,0.7563,, m sköler musik på jobbet imorgon.yrikabröftalr id t.c e läser en bil i  tockholm snabbt.d i hgårilnal.s än mocke äy båe
+A,2,C2_weight_only_b0,0.4599,0.4875,0.4034,, a skaaaa agalaa agåaaa ttaaad t alar.a ag aaa aaffaa.  tt bac aa atalal aäskaaaaf aaaf aaa tanalaseaaaattaa..  aaläae i
+A,2,C2_feedback_b5,0.8029,0.0,0.6303,, m sköler musik på jobbet långsär vär en bil i trädgården igår.lnti hgr mycket.b tt båe  tt brckei mycket.b tt bån sär m
+A,2,C2_feedback_b20,0.8029,0.0,0.6303,, m sköler musik på jobbet långsär vär en bil i trädgården igår.lnti hgr mycket.b tt båe  tt brckei mycket.b tt bån sär m
+A,2,C3_random,0.4648,0.5,0.3613,, a skaaaa agalaa agåaaa ttaaad z alat.aädaläalaraaaa  allaa .a tackaagr aaa ta aaf aar aaaffaaa  alaaa  alaaä aarae tala
+A,2,C5_finetune,0.8358,0.0625,0.605,, m skr et bil i  öteborg snabbt.s i köper ett hus i  öteborg alltid.g l ti.köder en bil här idag.d i alätkardri alltid.g
+A,3,C0_base,0.8364,0.05,0.6639,,nnn n skof.a u skriver ett äpple på jobbet ofta.der musik i trädgården snabbt.äden mångimon på jobbet ofta.der iaargkgil
+A,3,C1_broken,0.5673,0.5625,0.3277,1.852,nnaaanaaallär aaaraea af maaag går kaaar kaaar enavaaar kaffe daaaaar kaffe aaataaag maaaar kaffe aaataaaaallkaaaaaarär 
+A,3,C2_oracle,0.8364,0.05,0.6639,,nnn n skof.a u skriver ett äpple på jobbet ofta.der musik i trädgården snabbt.äden mångimon på jobbet ofta.der iaargkgil
+A,3,C2_weight_only_b0,0.5673,0.5625,0.3277,,nnaaanaaallär aaaraea af maaag går kaaar kaaar enavaaar kaffe daaaaar kaffe aaataaag maaaar kaffe aaataaaaallkaaaaaarär 
+A,3,C2_feedback_b5,0.8044,0.0,0.7059,,nnn n skof.e i tt.n b  n.l ti ser ett hus i  tockholm oftk.hdr musik i  verige sngbven på jobbet igår.mun där ofte.d ot 
+A,3,C2_feedback_b20,0.8053,0.0,0.7059,,nnn n skof.e i tt.n b  n.l ti ser ett hus i  tockholm oftk.hdr musik i  verige sngbven på jobbet igår.mun där ofte.d ot 
+A,3,C3_random,0.5678,0.5625,0.2689,,nanaaaaaaallli  aalaa  alli aaalarae taaaar eaaaaaraearae er vaa aaarkvaaaaaakrlaaaaaaraearae har maaar er vaa aaaraaall
+A,3,C5_finetune,0.8329,0.075,0.6303,,nnn n skoa.n i skriva.t u säger musik i  öteborg igår.van vänker ett hus i skolan imorgon.bse ser vatten i  verige allti
+A,4,C0_base,0.8356,0.05,0.7143,,nnngår ett brev i  verige långsamt.e i ser kaffe i skolan snabbt. io tockholm imorgon.m n kviltr köper musik i  tockholm
+A,4,C1_broken,0.5901,0.4875,0.3697,1.927,an gar aatten ia vartrakai taa ar ett aagar kaffeai aadae alatadagalånadanalatanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+A,4,C2_oracle,0.8356,0.05,0.7143,,nnngår ett brev i  verige långsamt.e i ser kaffe i skolan snabbt. io tockholm imorgon.m n kviltr köper musik i  tockholm
+A,4,C2_weight_only_b0,0.5901,0.4875,0.3697,,an gar aatten ia vartrakai taa ar ett aagar kaffeai aadae alatadagalånadanalatanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+A,4,C2_feedback_b5,0.7953,0.0,0.7059,,nnngår ett brev i  verige mycket.m sngår kiffe u skoke  lltid..  ttä.k i skriver musik i trädgården idubolligimofgoägi s
+A,4,C2_feedback_b20,0.7953,0.0,0.7059,,nnngår ett brev i  verige mycket.m sngår kiffe u skoke  lltid..  ttä.k i skriver musik i trädgården idubolligimofgoägi s
+A,4,C3_random,0.592,0.4875,0.3109,,nagagarakanagasagaalatadagaragag.kaiagar aatten altradagar iatabagar eaathar nasagaalanagaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+A,4,C5_finetune,0.8373,0.05,0.5882,,nnngår ett äpple i  tockholm idag.lån mar en vän i skolan snabbt.  i ser ett äpple i  tockholm lite.kei tänker ett hus i
+B,0,C0_base,0.168,0.05,0.6975,, gm music in the garden a lot.lik  hey today.wreesle lettliak a house in  ondon often.t e tke read an apple at school to
+B,0,C1_broken,0.1222,0.4875,0.2605,1.485, gatmaa aa an aa aa aa an apple at say a car at aa aa aa aa aa aa an aa aa an aa aa an aa aaa.r ayar an aa caa aat nad a
+B,0,C2_oracle,0.168,0.05,0.6975,, gm music in the garden a lot.lik  hey today.wreesle lettliak a house in  ondon often.t e tke read an apple at school to
+B,0,C2_weight_only_b0,0.1222,0.4875,0.2605,, gatmaa aa an aa aa aa an apple at say a car at aa aa aa aa aa aa an aa aa an aa aa an aa aaa.r ayar an aa caa aat nad a
+B,0,C2_feedback_b5,0.1683,0.0,0.6303,, gm music there yesterd tomurrilet.n  woik thine oulwcof.e ouschin  woden quickly. b ye there yesterdiy.l t bork here to
+B,0,C2_feedback_b20,0.1683,0.0,0.6303,, gm music there yesterd tomurrilet.n  woik thine oulwcof.e ouschin  woden quickly. b ye there yesterdiy.l t bork here to
+B,0,C3_random,0.123,0.4875,0.2605,, gatmaa aa an aa aa aa an apple at say a car at aa aa aa aa aa aa an aa aa an aa aa an aa aaa.r ayar an aa caa aaa lat.a
+B,0,C5_finetune,0.1701,0.05,0.5546,, ham water at work often.t in  ondon today.lwkey  like a letter in  ondon slowly.r  often.t e tke nou r here today.r enr
+B,1,C0_base,0.1618,0.075,0.6555,,munneat ffie there bulik t cat er at work slowly..  challithecslolin yen omd t.m hey a car here always. wota fhe nerite 
+B,1,C1_broken,0.1413,0.6125,0.1261,1.537,aneaaaa aa aa aa aa aa car at aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa reaa aatar a
+B,1,C2_oracle,0.1618,0.075,0.6555,,munneat ffie there bulik t cat er at work slowly..  challithecslolin yen omd t.m hey a car here always. wota fhe nerite 
+B,1,C2_weight_only_b0,0.1413,0.6125,0.1261,,aneaaaa aa aa aa aa aa car at aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa reaa aatar a
+B,1,C2_feedback_b5,0.1638,0.0,0.563,,munneni leter.he like food in  ondon slowly..  ou write woter in the gorden tomorrow.ow tem write woter in the gorden to
+B,1,C2_feedback_b20,0.1638,0.0,0.563,,munneni leter.he like food in  ondon slowly..  ou write woter in the gorden tomorrow.ow tem write woter in the gorden to
+B,1,C3_random,0.1364,0.6125,0.2353,,aneaaaa aa aa aa aa aa ar an apple at school a latalaaa latar at aa a aa aaa aa aa aa aa aa aa aa aa aa aa a aatanaaa aa
+B,1,C5_finetune,0.1655,0.1,0.6639,, wmaa book in  weden never.od have a house in  ondon today.stere a little.tee in the garden slowly..   riad water in  on
+B,2,C0_base,0.175,0.075,0.605,, mmmwria  house there tomorrow.wayestend here never.n  write a car in  weden a little.e he chine am athouse wan apple th
+B,2,C1_broken,0.1468,0.85,0.0756,1.165, mam maa aa aapaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+B,2,C2_oracle,0.175,0.075,0.605,, mmmwria  house there tomorrow.wayestend here never.n  write a car in  weden a little.e he chine am athouse wan apple th
+B,2,C2_weight_only_b0,0.1468,0.85,0.0756,, mam maa aa aapaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+B,2,C2_feedback_b5,0.176,0.0,0.6303,, mmmwrite go food in  ondon never. heretslowly.ö hey re think music here slowly.r hererneslowly..  esien  bud coffee her
+B,2,C2_feedback_b20,0.1769,0.0,0.6303,, mmmwrite go food in  ondon never. heretslowly.ö hey re think music here slowly.r hererneslowly..  esien  bud coffee her
+B,2,C3_random,0.1435,0.425,0.3866,, mmaiha atamar a faie there always.a ham aa aa aaaaaa an appla ha aaaaaa aapcapfa  abua aa aapaa aaaaaaaaaaaaaaaaaaaaaaa
+B,2,C5_finetune,0.1822,0.1,0.521,, mmwwwread a house at work today.s e reat wotton hay water at work quickly.  hike water at work quickly.  ar see think a
+B,3,C0_base,0.1593,0.0625,0.5966,, have a house in  weden tomorrow.t seera house at work often.t echin  wrien at wcher at work slowly.uy aawam a friend in
+B,3,C1_broken,0.1362,0.5625,0.3109,1.17, aa aa aa aa aa aa aa aa aa aa aa aa aa fap a  at say a car at school a little.e aa water at water at water at water at 
+B,3,C2_oracle,0.1593,0.0625,0.5966,, have a house in  weden tomorrow.t seera house at work often.t echin  wrien at wcher at work slowly.uy aawam a friend in
+B,3,C2_weight_only_b0,0.1362,0.5625,0.3109,, aa aa aa aa aa aa aa aa aa aa aa aa aa fap a  at say a car at school a little.e aa water at water at water at water at 
+B,3,C2_feedback_b5,0.1621,0.0,0.4622,, he see food in  ork wlwte n see were tere see coffee there never.there todon.n e lime ind mek see coffee here todon.of 
+B,3,C2_feedback_b20,0.1623,0.025,0.5378,, he see food in  ork wlwte n see water here slowly.d hey rick food in  weden quickly.there often.n  thind coffee here to
+B,3,C3_random,0.1347,0.575,0.3109,, aa aa aa aa aa aa aa aa aa aa aa aa aa fap a  at say a car at worka lat say a friend at an aa er at water at water at w
+B,3,C5_finetune,0.1698,0.075,0.5546,, have a friend there today.r hey see a friend there tomorrow.t ne to oorowe food at work a little.e hey am a friend in  
+B,4,C0_base,0.1563,0.1,0.5798,, cmad wain  lettn ore testerday.s o lokey see a letter in  ondon tomorrow.y he say a friend here slowly.s h le slowlike 
+B,4,C1_broken,0.1104,0.45,0.2353,1.641, a ama aa apat a latay aa aa apat a aa appad at watar at a har aa aa apat a aa ahaa aa aaaa aa apat atawora ar at waad a
+B,4,C2_oracle,0.1563,0.1,0.5798,, cmad wain  lettn ore testerday.s o lokey see a letter in  ondon tomorrow.y he say a friend here slowly.s h le slowlike 
+B,4,C2_weight_only_b0,0.1104,0.45,0.2353,, a ama aa apat a latay aa aa apat a aa appad at watar at a har aa aa apat a aa ahaa aa aaaa aa apat atawora ar at waad a
+B,4,C2_feedback_b5,0.159,0.0,0.479,, cmimu ihite tod.e yesterdes.e food in the goffood ite ork tester in  ondon never.e heyere telore tester in the gorden t
+B,4,C2_feedback_b20,0.159,0.0,0.479,, cmimu ihite tod.e yesterdes.e food in the goffood ite ork tester in  ondon never.e heyere telore tester in the gorden t
+B,4,C3_random,0.1099,0.4875,0.2521,, a ama aa apat a latay aa aa apat a aa appad at watar at a har aa aa aaa aa apat a aa apaad ataa ataacaa aa apat a baoka
+B,4,C5_finetune,0.1583,0.05,0.6218,, m go catereat sothork yesterday.a  rhin  an apple in  ork never.ther aoftod.there a little.he ser mn ihe goffee there t

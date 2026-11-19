@@ -1,0 +1,8 @@
+model,seed,condition,target_sv_acc,regression_en_acc,collapse_repeat,distinct2,base_sv_acc,target_token,alpha,note
+A,0,C0_base,0.2136,0.2610,0.0000,1.0000,0.2136,.,0.1875,
+A,0,C1_broken,0.0861,0.1320,0.0000,0.6552,0.2136,.,0.1875,
+A,0,C2_oracle,0.2136,0.2610,0.0000,1.0000,0.2136,.,0.1875,
+A,0,C3_random,0.2103,0.2610,0.0000,1.0000,0.2136,.,0.1875,
+A,0,C5_feedback_b5,0.2053,0.2522,0.0000,0.2644,0.2136,.,0.1875,est_tok= 
+A,0,C5_feedback_b20,0.2136,0.2199,0.0000,0.5862,0.2136,.,0.1875,est_tok= 
+A,0,C4_decode_broken,0.0861,0.1320,0.0000,1.0000,0.2136,.,0.1875,"repetition_penalty=1.5, no weight edit"
